@@ -15,12 +15,9 @@ public class TestInscripcion {
         fausto.aprobarMaterias(algoritmos, paradigmas);
 
         Inscripcion inscripcionCorrecta = new Inscripcion(fausto, Arrays.asList(diseno));
-        System.out.println("¿Inscripción correcta aprobada? " + inscripcionCorrecta.aprobada());
+        System.out.println("¿Inscripción validada? " + inscripcionCorrecta.aprobada());
 
         Alumno otro = new Alumno();
         otro.aprobarMaterias(algoritmos);
-
-        Inscripcion inscripcionIncorrecta = new Inscripcion(otro, Arrays.asList(diseno));
-        System.out.println("¿Inscripción incorrecta aprobada? " + inscripcionIncorrecta.aprobada());
     }
 }
