@@ -1,6 +1,6 @@
-# ✅ Validador de Inscripciones según Correlatividades
+ Validador de Inscripciones según Correlatividades (diagrama de clases de prueba de la primer version del codigo subido)
 
-## 📚 Contexto
+Contexto
 
 Nos han solicitado el diseño y el desarrollo de un **Validador de Inscripciones según materias correlativas**.
 
@@ -15,19 +15,19 @@ Básicamente, son materias que hay que tener **aprobadas antes de cursar** la ma
 
 ---
 
-## 📝 Consigna
+ Consigna
 
 Teniendo en cuenta que:
 
-- El método principal del presente módulo debe ser el método `boolean aprobada()` de la clase `Inscripcion`.
-- Las inscripciones pueden involucrar **varias asignaturas**.
-- La inscripción se **rechaza** si al menos una materia no cumple con la condición de correlatividades.
+ El método principal del presente módulo debe ser el método `boolean aprobada()` de la clase `Inscripcion`.
+ Las inscripciones pueden involucrar **varias asignaturas**.
+ La inscripción se **rechaza** si al menos una materia no cumple con la condición de correlatividades.
 
-### 🚫 Restricciones
+Restricciones
 
 Solamente se podrán utilizar, además de la clase `Inscripcion`, las clases `Materia` y `Alumno`.
 
-### 📌 Objetivos:
+ Objetivos:
 
 1. Diseñar una solución en el **Paradigma Orientado a Objetos** y comunicarla mediante un **Diagrama de Clases**.
 2. Codificar la solución en **Java**.
